@@ -1,5 +1,5 @@
 const {MongoMemoryServer} = require('mongodb-memory-server');
-const MongoClient = require('mongodb').MongoClient;
+const {MongoClient} = require('mongodb');
 
 let database = null;
 
